@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📝 Blog Platform</h1>
+<nav>
+    <a href="index.html">Home</a>
+
+    <span id="user-info"></span>
+<a href="create-post.html" id="create-post-link">Create Post</a>
+    <a href="login.html" id="login-link">Login</a>
+
+    <a href="register.html" id="register-link">Register</a>
+
+    <a href="#" id="logout-link" style="display: none;">Logout</a>
+</nav>
+        
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h2>Welcome to Blog Platform</h2>
+
+            <p>
+                Share your thoughts, read posts, and join the conversation.
+            </p>
+
+            <button onclick="showMessage()">
+                Get Started
+            </button>
+        </section>
+<section class="posts">
+
+    <h2>Latest Posts</h2>
+
+    <div id="posts-container">
+        <p>Loading posts...</p>
+    </div>
+
+</section>
+        
+    </main>
+
+    <footer>
+        <p>© 2026 Blog Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
